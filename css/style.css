@@ -1,0 +1,50 @@
+*{
+  box-sizing: border-box;
+}
+html, body{
+  height: 100%;
+}
+.container{
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+main{
+  background-image: url("../img/park.jpg");
+  background-position: center center;
+  background-size: cover;
+  width: 100%;
+  height: 100%;
+}
+.cTwo{
+  background-color: #A0EBE3;
+}
+#topRow{
+  background-color: rgba(140, 140, 140, .10);
+  border-radius: 10px;
+  margin: 70px 5px 0;
+  padding: 5px;
+}
+.regBox{
+  margin: 0 auto;
+  width: 85%;
+}
+.bold{
+  font-weight: bold;
+}
+.center{
+  text-align: center;
+}
+.marginTop{
+  margin-top: 10px;
+}
+.title{
+  font-size: 4em;
+  margin-top: 100px;
+}
+#footer{
+  background-color: #B0D1FB;
+}
+.marginBottom{
+  margin-bottom: 30px;
+}
