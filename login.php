@@ -10,8 +10,6 @@
 
 	include("connection.php");
 
-
-	// "localhost", "review-a", "f5r8Q3xWuXYbJasQ", "databasereview"
 	if(isset($_POST['submit'])=="Sign Up"){
 		if(!isset($error)) $error="";
 		if(!$_POST['email']) $error="<br />Please enter your email.";
